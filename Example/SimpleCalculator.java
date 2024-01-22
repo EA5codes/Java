@@ -12,6 +12,7 @@ public class SimpleCalculator{
 		System.out.println("2. Number: ");
 		int b = scan.nextInt();
 
+		System.out.println("Select an operation...");
 		System.out.println("1 - addition operation");
 		System.out.println("2 - subtraction operation");
 		System.out.println("3 - multiplication operation");
@@ -28,7 +29,7 @@ public class SimpleCalculator{
 		}else if(select == 3){
 			result = a * b;
 		}else if(select == 4){
-			if(b = 0){
+			if(b == 0){
 				System.out.println("Divisor cannot be 0!");
 				
 			}else{
