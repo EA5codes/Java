@@ -17,7 +17,7 @@ public class CalculationKDV {
 		System.out.println("KDV Rate : %" + (int)rate);
 		System.out.println("KDV Amount : " + kdvPrice);
 		System.out.println("Amount mit KDV Rate : " + total);
-		
+		scan.close();
 		
 	}
 }
