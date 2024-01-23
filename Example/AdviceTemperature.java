@@ -21,6 +21,7 @@ public class AdviceTemperature {
 		}
 		
 		System.out.println("Adviced event : " + event);
+		scan.close();
 	}
 	
 
